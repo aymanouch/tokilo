@@ -66,7 +66,7 @@ class SelectionItem extends Component {
             </span>
           </div>
           <div className="right-control">
-            <Link to="/all_product">
+            <Link to="/all_product" onClick={()=> {gsap.to("html, body", {scrollTop:0})}}>
               all product<span></span>
             </Link>
           </div>
