@@ -21,7 +21,7 @@ sans-serif;
         width: auto;
     }
     @include media('<tablet') {
-        height:150vh;
+        height:200vh;
     }
 
     .img-intro {
@@ -84,7 +84,7 @@ sans-serif;
             top: 30%;
             left: 50%;
             transform: translateX(-50%);
-            padding: 0 0 0 64px;
+            
         }
 
         h1 {
@@ -121,7 +121,7 @@ sans-serif;
 
         @include media('<=tablet') {
             left: 10%;
-            bottom:28%;
+            bottom:15%;
             width: 80%;
             padding: 0;
             height: auto;
@@ -158,7 +158,7 @@ sans-serif;
         height: 70px;
 
         @include media('<=tablet') {
-            bottom: 15%;
+            bottom: 5%;
             left: 50%;
             transform: translateX(-50%);
             margin: 0;
