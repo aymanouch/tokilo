@@ -28,7 +28,7 @@ const Contact = () => {
                        <input type="number" onClick={(e) => {gereClick(e)}}/>
                       </div>
                       <div className="sec-from">
-                       <input type="submit" value="send"className="send"/>
+                       <input type="submit" value="send"className="send" onClick={(e) => {e.preventDefault()}}/>
                       </div>
                    </form>
                </div>
