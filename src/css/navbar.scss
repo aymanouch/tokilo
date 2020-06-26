@@ -221,4 +221,15 @@ sans-serif;
       line-height: 50px;
     }
   }
+  .closeNav{
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    font-size: 30px;
+    width: 30px;
+    height: 50px;
+    margin-top: -25px;
+    color:$color;
+    cursor: pointer;
+      }
 }

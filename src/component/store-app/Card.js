@@ -28,6 +28,9 @@ class Card extends Component {
         .to(name, { opacity: 0, y: 200, duration: 1.1 }, "-=.5");
     }
   };
+  scrollToZero = () => {
+    gsap.to('html, body', {scrollTop:0});
+  }
   render() {
     return (
       <div
@@ -48,7 +51,7 @@ class Card extends Component {
           />
         </div>
         <div className="name">{this.props.card.name}</div>
-        <Link to={`/product/${this.props.card.name}`}></Link>
+        <Link to={`/product/${this.props.card.name}`} onClick={this.scrollToZero}></Link>
       </div>
     );
   }

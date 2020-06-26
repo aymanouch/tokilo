@@ -95,6 +95,7 @@ class Navbar extends Component {
           <img alt="soo9e" src={logo} />
         </div>
         <div className="socialright">{social}</div>
+        <dic className="closeNav" onClick={this.handleClick }><i className="fa fa-align-left"></i></dic>
       </div>
     );
   }
