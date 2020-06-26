@@ -1,0 +1,33 @@
+//decalaration color 
+$color:#474242;
+//initialisation font 
+$font1: 'Anton',
+sans-serif;
+
+$font2:'Cairo',
+sans-serif;
+
+$font3: 'Ubuntu',
+sans-serif;
+
+#store {
+    height: 100vh;
+
+    @include media('<700px') {
+        height: auto;
+    }
+
+    .book {
+        width: 50%;
+        height: 100vh;
+        float: left;
+
+        @include media('<tablet') {
+            width: 100%;
+            float: none;
+        }
+
+    }
+
+
+}

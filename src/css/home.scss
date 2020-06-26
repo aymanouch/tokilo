@@ -1,0 +1,212 @@
+//decalaration color 
+$color:#17868e;
+//initialisation font 
+$font1: 'Anton',
+sans-serif;
+
+$font2:'Cairo',
+sans-serif;
+
+$font3: 'Ubuntu',
+sans-serif;
+
+//start styling home
+#home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+
+    @include media('<=700px') {
+        width: auto;
+    }
+    @include media('<tablet') {
+        height:150vh;
+    }
+
+    .img-intro {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: url("../image/img-intro.jpg");
+        background-size:cover;
+
+        @include media("<=1200px") {
+            width: 450px;
+            height: 450px;
+        }
+
+        @include media('<=1080px') {
+            width: 400px;
+            height: 400px;
+        }
+
+        @include media('<=tablet') {
+            width: 260px;
+            height: 260px;
+            top: 5%;
+            margin-top: 0;
+            left: 30%;
+            transform: translateX(-50%);
+        }
+
+        @include media('<=700px') {
+            width: 230px;
+            height: 230px;
+            top: 5%;
+            left: 50%;
+            margin-top: 0;
+        }
+    }
+
+    .intro-title {
+        width: 55%;
+        height: 200px;
+        position: absolute;
+        top: 15%;
+        left: 40%;
+        font-family: $font1;
+        background: #fff;
+        border-radius: 5px;
+        padding: 16px 24px;
+        display:flex;
+        align-items: center;
+
+        @include media('<=tablet') {
+            left: 55%;
+        }
+
+        @include media("<=700px") {
+            width: 100%;
+            height: 250px;
+            top: 30%;
+            left: 50%;
+            transform: translateX(-50%);
+            padding: 0 0 0 64px;
+        }
+
+        h1 {
+            width: 80%;
+            font-size: 50px;
+            text-transform: capitalize;
+            color: $color;
+            padding:0;
+            margin:0;
+            height:100%;
+
+            @include media('<desktop') {
+                font-size: 40px;
+            }
+
+            @include media('<=tablet') {
+                font-size: 30px;
+            }
+
+            @include media("<=600px") {
+                font-size: 30px;
+                width: 100%;
+            }
+        }
+    }
+
+    .text {
+        position: absolute;
+        bottom: 35%;
+        left: 50%;
+        width: 50%;
+        height: 200px;
+        padding: 0 40px;
+
+        @include media('<=tablet') {
+            left: 10%;
+            bottom:28%;
+            width: 80%;
+            padding: 0;
+            height: auto;
+
+        }
+
+        
+
+        .en-text {
+            font-size: 18px;
+            padding-right: 24px;
+            color: #acacac;
+            font-family: $font3;
+
+            @include media("<=1200px") {
+                line-height: 40px;
+            }
+        }
+
+        .ar-text {
+            font-size: 18px;
+            padding-right: 24px;
+            color: #acacac;
+            font-family: $font2;
+            direction: rtl;
+        }
+    }
+
+    .store-btn {
+        position: absolute;
+        bottom: 20%;
+        left: 70%;
+        width: 200px;
+        height: 70px;
+
+        @include media('<=tablet') {
+            bottom: 15%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+        }
+
+        a {
+            display: inline-block;
+            padding: 16px 24px;
+            background: $color;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            color: #fff;
+            border-radius: 8px;
+            font-family: anton;
+            text-decoration: none;
+            text-transform: uppercase;
+            line-height: 40px;
+            font-size: 20px;
+            letter-spacing: 6px;
+            transition: all .3s ease-out;
+
+            &:hover {
+                background: #1d9ba5;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
+
+@keyframes rotate-circle {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    5% {
+        transform: rotate(15deg);
+    }
+
+    25% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(90deg);
+    }
+
+    100% {
+        transform: rotate(180deg);
+    }
+}

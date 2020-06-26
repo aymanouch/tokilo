@@ -1,0 +1,123 @@
+//decalaration color 
+$color:#17868e;
+
+.selection {
+    .cont-slider {
+        height: 80vh;
+        position: relative;
+        overflow: hidden;
+
+        @include media("<tablet") {
+            height: 200vh;
+        }
+
+        .slide {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 100%;
+
+            &:first-child {
+                left: 0%;
+            }
+        }
+    }
+
+    .cont-control {
+        height: 20vh;
+
+        .left-control {
+            width: 60%;
+            line-height: 100px;
+        }
+
+        .right-control {
+            width: 40%;
+
+            a {
+                text-transform: uppercase;
+                text-decoration: none;
+                color: $color;
+                position: relative;
+                font-family: $font3;
+                line-height: 20vh;
+
+                span {
+                    display: inline-block;
+                    width: 40%;
+                    height: 3px;
+                    background: #17868e;
+                    position: absolute;
+                    bottom: -6px;
+                    left: 0;
+                    transition: width .5s ease-in-out;
+                    padding: 0;
+                }
+
+                &:hover span {
+                    width: 80%;
+                }
+            }
+
+
+        }
+
+        .left-control,
+        .right-control {
+            float: left;
+            height: 100%;
+            text-align: center;
+
+
+            @include media('<tablet') {
+                width: 100%;
+                float: none;
+            }
+
+
+            span {
+                display: inline-block;
+                padding: 24px;
+                color: $color;
+                font-size: 60px;
+                font-weight: lighter;
+
+                @include media('<=desktop') {
+                    padding: 8px;
+                    font-size: 40px;
+                }
+
+                @include media("<tablet") {
+                    padding: 24px;
+                    font-size: 60px;
+                }
+
+                @include media('<phone') {
+                    padding: 8px;
+                    font-size: 40px;
+                }
+
+                &.next,
+                &.prev {
+                    font-size: 50px;
+                    cursor: pointer;
+
+                    @include media('<=desktop') {
+                        font-size: 30px;
+                    }
+
+                    @include media("<tablet") {
+                        font-size: 50px;
+                    }
+
+                    @include media('<phone') {
+                        font-size: 30px;
+                    }
+                }
+
+            }
+        }
+
+
+    }
+}

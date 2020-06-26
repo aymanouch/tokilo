@@ -1,0 +1,20 @@
+.size{
+    h3{
+        text-align: center;
+        padding-top: 64px;
+        text-transform: capitalize;
+        font-size: 22px;
+        color: #17868e;
+    }
+    table{
+        display:flex;
+        justify-content: center;
+
+        td{
+            padding:8px;
+            border:1px solid #7b7b7b;
+            color:#7b7b7b;
+            border-radius: 4px;
+        }
+    }
+}

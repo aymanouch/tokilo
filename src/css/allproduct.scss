@@ -1,0 +1,16 @@
+#allproduct {
+        width:100%;
+        height:100vh;
+        @include media('<tablet') {
+                height:auto;
+        }
+
+        .card {
+                @include media('<tablet') {
+                        height:50vh;
+                }
+         .name{
+                 color:#fff;
+         }
+        }
+}
