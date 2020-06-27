@@ -6,7 +6,7 @@ const Home = () => (
     </div>
    
     <div className="intro-title">
-      <h1>You are in the best place to have great products and &amp; accessories</h1>
+      <h1><strong>tokilo</strong>the best place to get great products and &amp; accessories</h1>
     </div>
     <div className="text">
       <p className="en-text">
