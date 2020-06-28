@@ -5,8 +5,8 @@
       "name": "joseph black men",
       "img": ["purfun-1.png"],
       "quantity": 5,
-      "new_price": 119,
-      "prec_price": 150,
+      "new_price": 79,
+      "prec_price": 140,
       "size":[],
       "description": "A distinctive fragrance from our store is a beautiful, long-lasting scent for men and women ",
       "issuance": "spring 2020"
@@ -16,8 +16,8 @@
       "name": "joseph black women",
       "img": ["parfum.png"],
       "quantity": 5,
-      "new_price": 119,
-      "prec_price": 150,
+      "new_price": 79,
+      "prec_price": 140,
       "description": "A distinctive fragrance from our store is a beautiful, long-lasting scent for men and women",
       "issuance": "fall 2020"
     },
