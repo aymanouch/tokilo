@@ -152,6 +152,18 @@
       "description": "black sneakers with some white line ",
       "issuance": "summer 2019"
       
+    },
+    {
+      "id": 15,
+      "name": "Black sneakers",
+      "img": ["blacksneakers.png"],
+      "quantity": 5,
+      "new_price": 300,
+      "prec_price": 399.9,
+      "size":[ 41, 42, 43 ],
+      "description": "black sneakers with some white line ",
+      "issuance": "summer 2019"
+      
     }
     
   ]
