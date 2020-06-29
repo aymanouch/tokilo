@@ -110,35 +110,35 @@
     },
     {
       "id": 11,
-      "name": "Stopwatch Sideview Clock ",
-      "img": ["abc9.png"],
+      "name": "sac dior a",
+      "img": ["sacA-1.png", "sacA-2.png", "sacA-3.png"],
       "quantity": 5,
-      "new_price": 80,
-      "prec_price": 100,
+      "new_price": 320,
+      "prec_price": 500,
       "size":[],
-      "description": "stopwatch sideview clock is a nice watch for calculate the time ",
+      "description": "beautfull sac dior with  wallet and small bag and some accsesoier",
       "issuance": "summer 2019"
     },
     {
       "id": 12,
-      "name": "Watch Gold",
-      "img": ["abc10.png"],
+      "name": "sac dior b",
+      "img": ["sacB-1.png", "sacB-2.png", "sacB-3.png"],
       "quantity": 5,
-      "new_price": 150,
-      "prec_price": 200,
+      "new_price": 250,
+      "prec_price": 300,
       "size":[],
-      "description": "nice gold watch",
+      "description": "beautfull sac dior with  wallet",
       "issuance": "summer 2019"
     },
     {
       "id": 13,
-      "name": "Obey Cap",
-      "img": ["abc11.png"],
+      "name": "sac bojida",
+      "img": ["sacC-2.png", "sacC-3.png"],
       "quantity": 5,
-      "new_price": 250,
-      "prec_price": 300,
+      "new_price": 300,
+      "prec_price": 399,
       "size":[ 41, 42, 43 ],
-      "description": "beautfull cap from obey ",
+      "description": "beautfull sac bojida with watch and wallet and some accsesoier",
       "issuance": "summer 2019"
     },
     {
@@ -150,6 +150,18 @@
       "prec_price": 399.9,
       "size":[ 41, 42, 43 ],
       "description": "black sneakers with some white line ",
+      "issuance": "summer 2019"
+      
+    },
+    {
+      "id": 15,
+      "name": "sonar",
+      "img": ["sonar.png"],
+      "quantity": 5,
+      "new_price": 250,
+      "prec_price": 335,
+      "size":[ 41, 42, 43 ],
+      "description": " ",
       "issuance": "summer 2019"
       
     }
