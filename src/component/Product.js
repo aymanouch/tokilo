@@ -54,7 +54,7 @@ class Product extends Component {
             <a className="fb-btn btn" href="https://m.me/tokiloofficiel" target="_blank">
             <i className="fa fa-facebook"></i> facebook
             </a>
-            <a className="wa-btn btn" href="https://wa.me/212679658971" target="_blank">
+            <a className="wa-btn btn" href="https://wa.me/212617261814" target="_blank">
             <i className="fa fa-whatsapp"></i> whatsapp
             </a>
           </div>

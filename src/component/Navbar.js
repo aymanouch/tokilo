@@ -86,7 +86,7 @@ class Navbar extends Component {
         </div>
         {/* strat number */}
         <div className="number">
-          <a href="tel:+212679658971" target="_blank"><i className="fa fa-phone"></i> +212679658971</a>
+          <a href="tel:+212617261814" target="_blank"><i className="fa fa-phone"></i> +212617261814</a>
         </div>
         <div className="img-nav">
           <img alt="shoes" src={imgNav} />

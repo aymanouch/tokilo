@@ -164,6 +164,18 @@
       "description": " ",
       "issuance": "summer 2019"
       
+    },
+    {
+      "id": 16,
+      "name": "laccor",
+      "img": ["laccor.png", "laccor-01.png", "laccor-02.png"],
+      "quantity": 10,
+      "new_price": 319,
+      "prec_price": 499,
+      "size":[],
+      "description": "  مشواة كهربائية من اسبانيا اصلية و رائعة تتوفر على مقلاة في اسفل لتمنع تسرب زيت من وشحوم ويسهل تنظيفها بعد استعمالها ",
+      "issuance": "summer 2019"
+      
     }
     
   ]
