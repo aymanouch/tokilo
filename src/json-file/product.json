@@ -131,17 +131,6 @@
       "issuance": "summer 2019"
     },
     {
-      "id": 13,
-      "name": "sac bojida",
-      "img": ["sacC-2.png", "sacC-3.png"],
-      "quantity": 5,
-      "new_price": 300,
-      "prec_price": 399,
-      "size":[ 41, 42, 43 ],
-      "description": "beautfull sac bojida with watch and wallet and some accsesoier",
-      "issuance": "summer 2019"
-    },
-    {
       "id": 14,
       "name": "Black sneakers",
       "img": ["blacksneakers.png"],
