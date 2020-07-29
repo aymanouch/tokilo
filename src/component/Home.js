@@ -12,6 +12,9 @@ const Home = () => (
       <p className="en-text">
       We have a nice clothes and accessories store, of course, with a suitable price that you can check out now.
       </p>
+      <p className="en-text">
+      just in tokilo customer is king king never bargains.
+      </p>
       <p className="ar-text">
       لدينا متجر جميل للملابس و اكسسورات  بالطبع مع أثمنة مناسبة يمكنكك تفقده الأن 
       </p>
